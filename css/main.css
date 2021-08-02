@@ -1,0 +1,272 @@
+@charset "utf-8";
+/* CSS Document */
+body 
+{
+    padding: 0;
+    margin: 0;
+}
+.lonnhat
+{
+    width: 100%;
+    height: 5950px;
+    background-color: aqua;
+}
+.mot
+{
+    width: 100%;
+    height: 123px;
+    background-color: black;
+}
+.logo
+{
+    width: 30%;
+    height: 123px;
+    background-color: chocolate;
+    float: left;
+}
+.menu
+{
+    width: 70%;
+    height: 123px;
+    background-color:black;
+    float: right;
+    font-family: fontmenu;
+}
+.menu ul
+{
+    list-style: none;
+    color: white;
+}
+.menu ul li
+{
+    float: right;
+    padding: 40px 25px 0px 25px;
+}
+.menu ul li a
+{
+    text-decoration: none;
+    
+}
+.menu ul li:hover
+{
+    border-bottom: 4px solid #FF4F00;
+}
+.hai
+{
+    width: 100%;
+    height: 900px;
+    background-image: url("../images/xehoi2.jpg");
+    background-size: cover;
+    box-sizing: border-box;
+    font-family: fontne;
+}
+
+@font-face
+{
+    font-family: fontne;
+    src: url("../font/NunitoSans-Bold.ttf");
+}
+@font-face
+{
+    font-family: fontmenu;
+    src: url("../font/NunitoSans-BoldItalic.ttf");
+}
+
+.hai 
+{
+    color: white;
+}
+.ba
+{
+    width: 100%;
+    height: 1700px;
+    background-color: white;
+    padding: 7%;
+    box-sizing: border-box;
+}
+button 
+{
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    background-color: #FF4F00;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.ba_a
+{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    font-family: fontne;
+}
+.ba_b
+{
+    width: 20%;
+    height: 1200px;
+    background-color: white; 
+    float: left;
+    font-family: fontmenu;
+}
+.ba_c
+{
+    width: 80%;
+    height: 1430px;
+    background-color: white;
+    float: right;
+    padding: 1%;
+    box-sizing: border-box;
+
+}
+.ba_b ul
+{
+    list-style: none;
+    color: black;
+}
+.ba_b ul li
+{
+    float: left;
+    padding: 20px 50px 0px 0px;
+}
+.ba_b ul li a
+{
+    text-decoration: none;
+    
+}
+.ba_b ul li:hover
+{
+    border-bottom: 4px solid #FF4F00;
+    color: #FF4F00;
+}
+.ba_hong
+{
+    width: 319px;
+    height: 450px;
+    background-color: white;
+    float: left;
+    margin: 1%;
+    font-family: fontne;
+}
+.bon
+{
+    width: 90%;
+    height: 800px;
+    background-image: url("../images/intro_slider_07_optimised.jpg");
+    background-size: cover;
+    color: white;
+    font-family: fontne;
+    
+}
+.nam
+{
+    width: 100%;
+    height: 645px;
+    background-color: white; 
+    background-size: cover;
+    color: black;
+    font-family: fontne;
+    
+}
+.nam_a
+{
+    width: 34%;
+    height: 645px;
+    background-color: white;  
+    float: right;
+    
+}
+.sau
+{
+    width: 100%;
+    height: 150px;
+    padding-top: 5%;
+    background-color: #FF4F00; 
+    color: white;
+    font-family: fontne;
+}
+.bay
+{
+    width: 100%;
+    height: 430px;
+    background-color: burlywood; 
+
+}
+.bay_a
+{
+    width: 100%;
+    height: 70px;
+    padding-top: 8%;
+    background-color: white; 
+    font-family: fontne;
+    
+}
+.bay_b
+{
+    width: 50%;
+    height: 360px;
+    background-color: white; 
+    font-family: fontne;
+    float: left;
+}
+.bay_c
+{
+    width: 50%;
+    height: 360px;
+    background-color: white; 
+    font-family: fontne;
+    float: right;
+}
+.vuongnho
+{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    margin-top: 10%;
+}
+.tam
+{
+    width: 100%;
+    height: 600px;
+    background-image: url("../images/Screenshot-2021-02-14-at-5_10_26-PM.png");
+    background-size: cover;
+    padding-top: 10%;
+    font-family: fontne;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    color: white
+}
+.tam input
+{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.chin
+{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    font-family: fontne;
+    padding-top: 2%;
+}
+.cuoi
+{
+    width: 30%;
+    height: 200px;
+    background-color: white;
+    float: left;
+    font-family: fontne;
+    margin-right: 3%;
+}
+
+
+
+
+
+
+
+
+
